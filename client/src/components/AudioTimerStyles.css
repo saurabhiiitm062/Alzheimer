@@ -1,0 +1,13 @@
+.audio-timer {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.time {
+    display: inline-block;
+}
+
+.seconds, .milliseconds {
+    display: inline-block;
+    margin-left: 4px;
+}

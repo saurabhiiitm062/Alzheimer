@@ -1,0 +1,12 @@
+from sklearn.feature_extraction.text import TfidfVectorizer
+import joblib
+
+# Example data (replace with your actual data)
+data = ["This is a sample text.", "Another example text."]
+
+# Create and fit the vectorizer
+vectorizer = TfidfVectorizer()
+vectorizer.fit(data)
+
+# Save the vectorizer to a file
+joblib.dump(vectorizer, 'vectorizer.joblib')
