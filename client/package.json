@@ -24,14 +24,12 @@
     "path-browserify": "^1.0.1",
     "querystring-es3": "^0.2.1",
     "react-app-rewired": "^2.2.1",
-    "react-scripts": "^5.0.1",
     "stream-browserify": "^3.0.0"
   },
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "test": "react-app-rewired test"
   },
   "eslintConfig": {
     "extends": [
